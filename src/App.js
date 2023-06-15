@@ -68,7 +68,7 @@ const App = () => {
   };
 
   const handleResizeStart = (index, e) => {
-    const [handlePosX, handlePosY] = e.direction;
+    const [handlePosX] = e.direction;
 
     if (handlePosX === -1) {
       const initialLeft = e.left;
